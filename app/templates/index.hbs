@@ -3,6 +3,8 @@
 {{new-question addQuestion='addQuestion'}}
 
 {{#each model as |question|}}
-  <p>{{#link-to 'question' question.id}}{{question.content}}{{/link-to}}</p>
-  <p>post by: {{question.author}}</p>
+  <div class='mainQuestions'>
+    <p>{{#link-to 'question' question.id}}{{question.content}}{{/link-to}}</p>
+    <p>post by: {{question.author}}</p>
+  </div>
 {{/each}}

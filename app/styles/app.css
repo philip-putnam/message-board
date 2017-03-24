@@ -1,0 +1,20 @@
+.well {
+  text-align: center;
+}
+
+.mainQuestions {
+  margin-top: 10px;
+}
+
+p {
+  padding-top: 1px;
+}
+
+.btn {
+  margin-top: 5px;
+}
+
+textarea {
+  width: 450px;
+  height: 150px;
+}

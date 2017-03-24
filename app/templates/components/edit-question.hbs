@@ -1,13 +1,19 @@
 {{#if editFormShow}}
   <form>
-    <label for='author'>Name: </label>
-    {{input value=question.author id='author'}}
+    <div class='form-group'>
+      <label for='author'>Name: </label>
+      {{input value=question.author id='author'}}
+    </div>
 
-    <label for='content'>Content: </label>
-    {{input value=question.content id='content'}}
+    <div class='form-group'>
+      <label for='content'>Content: </label>
+      {{input value=question.content id='content'}}
+    </div>
 
-    <label for='additionalNotes'>Additional info: </label>
-    {{textarea value=question.additionalNotes id='additionalNotes'}}
+    <div class='form-group'>
+      <label for='additionalNotes'>Additional info: </label><br>
+      {{textarea value=question.additionalNotes id='additionalNotes'}}
+    </div>
 
     <button class="btn" {{action 'updateQuestion' question}}>Update Question</button>
   </form>
