@@ -11,13 +11,26 @@ export default Ember.Component.extend({
       }
     },
     addQuestion: function() {
-      var params = {
-        author: this.get('author'),
-        content: this.get('content'),
-        additionalNotes: this.get('additionalNotes'),
-      };
-      this.set('addNewQuestionFormShowing', false);
-      this.sendAction('addQuestion', params);
+      var author = this.get('author');
+      if (!author) {
+        author = 'Anon';
+      }
+      var additionalNotes = this.get('additionalNotes');
+      if (!additionalNotes) {
+        additionalNotes = "no additional notes provided";
+      }
+      var content = this.get('content');
+      if (!content) {
+        alert("You must ask a question!");
+      } else {
+        var params = {
+          author: author,
+          content: content,
+          additionalNotes: additionalNotes,
+        };
+        this.set('addNewQuestionFormShowing', false);
+        this.sendAction('addQuestion', params);
+      }
     }
   }
 });

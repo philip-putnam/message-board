@@ -3,6 +3,6 @@
 {{new-question addQuestion='addQuestion'}}
 
 {{#each model as |question|}}
-  {{#link-to 'question' question.id}}<p>{{question.content}}</p>{{/link-to}}
+  <p>{{#link-to 'question' question.id}}{{question.content}}{{/link-to}}</p>
   <p>post by: {{question.author}}</p>
 {{/each}}
