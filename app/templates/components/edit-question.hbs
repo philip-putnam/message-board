@@ -1,0 +1,21 @@
+{{#if editFormShow}}
+  <form>
+    <label for='author'>Name: </label>
+    {{input value=question.author id='author'}}
+
+    <label for='content'>Content: </label>
+    {{input value=question.content id='content'}}
+
+    <label for='additionalNotes'>Additional info: </label>
+    {{textarea value=question.additionalNotes id='additionalNotes'}}
+
+    <button class="btn" {{action 'updateQuestion' question}}>Update Question</button>
+  </form>
+
+  <button class='btn' {{action 'toggleEditFormShow'}}>Hide Form</button>
+
+{{else}}
+
+  <button class='btn' {{action 'toggleEditFormShow'}}>Edit Question</button>
+
+{{/if}}

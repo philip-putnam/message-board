@@ -2,6 +2,8 @@
 <p>Asked by: {{model.question.author}}</p>
 <p>Additional notes: {{model.question.additionalNotes}}</p>
 
+{{edit-question question=model.question updateQuestion='updateQuestion'}}
+
 <h4>Answers:</h4>
 
 {{new-answer addAnswer='addAnswer' question=model.question}}
