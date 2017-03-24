@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  addNewQuestionFormShowing: false,
+  formShowing: false,
   actions: {
     toggleFormShowing: function() {
       if (!this.addNewQuestionFormShowing) {
