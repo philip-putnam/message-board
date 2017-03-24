@@ -22,6 +22,7 @@ export default Ember.Component.extend({
         var params = {
           author: this.get('author'),
           content: this.get('content'),
+          question: this.get('question')
         };
         this.set('addNewAnswerFormShowing', false);
         this.sendAction('addAnswer', params);

@@ -4,9 +4,9 @@
 
 <h4>Answers:</h4>
 
-{{new-answer addAnswer='addAnswer'}}
+{{new-answer addAnswer='addAnswer' question=model.question}}
 
-{{#each model.answers as |answer|}}
+{{#each model.question.answers as |answer|}}
   <p>User: {{answer.author}}</p>
   <p>{{answer.content}}</p>
 {{/each}}
