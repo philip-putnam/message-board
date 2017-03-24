@@ -33,6 +33,7 @@ You will need the following things properly installed on your computer.
   * ember-cli
   * ember-cli-jshint (debug)
   * ember-cli-uglify (concats projects files into one page)
+  * emberfire (connects to firebase database (model))
 
 2. Specs
   * Spec 1: user types root route url, 'localhost:4200', list of current user questions.

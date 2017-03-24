@@ -1,1 +1,5 @@
-{{outlet}}
+<h3>Hi</h3>
+
+{{#each model as |question|}}
+  <p>{{question.content}}, post by: {{question.author}}</p>
+{{/each}}
