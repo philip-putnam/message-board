@@ -1,0 +1,39 @@
+{ "questions": [{
+    "author": "Philip Putnam",
+    "content": "How do I create a dynamic route within an ember project?",
+    "additionalNotes": "I've installed ember utilizing the command: $ ember new <my-project-name> , I've also added an index route and would like to make my route 'user' dynamic/unique"
+  }, {
+    "author": "Jennifer Barr",
+    "content": "How do I get a navbar to show up on every page of my site?",
+    "additionalNotes": "I've installed ember including a few routes, I want to have the same basic header/footer that displays on each page."
+  },
+  {
+    "author": "David Smith",
+    "content": "Why can't I see my data from my firebase database on my route?",
+    "additionalNotes": "I've installed ember, emberfire, and placed my firebase information in my config/environment.js. I can see the data when requested/rendered on my route but my component within the route won't render additional database data."
+  }, {
+    "author": "Jacob Kuhn",
+    "content": "Where do I add my custom styling with ember? How about integrating bootstrap?",
+    "additionalNotes": "I've installed ember but cannot figure out how to add my personal styling or bootstrap"
+  }, {
+    "author": "Brandon Mallon",
+    "content": "How do I create a one to many (1:Many) relationship with ember and firebase?",
+    "additionalNotes": "I've installed ember and created two different models, my firebase is linked correctly as I can see data before linking the two models together but I'm unsure on how to link both of them."
+  }, {
+    "author": "Greg Benge",
+    "content": "How do I create a model and access it?",
+    "additionalNotes": "I've installed ember but I'm stuck on creating a database to store information and data"
+  }, {
+    "author": "Cori Casper",
+    "content": "Why won't my data save to firebase?",
+    "additionalNotes": "I've installed ember, I can see the data that currently resides in my firebase but I am unable to save data to the firebase using a component!! What gives?!"
+  }, {
+    "author": "Philip Putnam",
+    "content": "I can't get my computer to turn on... why?",
+    "additionalNotes": "I bought this computer from some dude, it won't turn on when I speak to it. I've tried using my phone, Siri just doesn't understand and Google isn't really that helpful."
+  }, {
+    "author": "Paul Dorner",
+    "content": "In an ember project, how do I create a route?",
+    "additionalNotes": "I've installed ember and would like to have a few different pages"
+  }]
+}
