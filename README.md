@@ -48,7 +48,7 @@ You will need the following things properly installed on your computer.
   * index route with index.hbs template and index.js route handler rendering questions (data down) from firebase database (model), passing create question action (up) to model from new-question component
   * application.hbs template providing header navbar with site links
   * new-question component with new-question.hbs providing form html and new-question.js providing action for creating new user question, gathering data from form and passing the action up to index.js
-  * question.hbs template and question.js { /question/:question_id } dynamic route rendering specific question with answers from firebase database (model).
+  * question.hbs template and question.js {path: /question/:question_id } dynamic route rendering specific question with answers from firebase database (model).
   * question.js handling data from model to display question and pass data down to answer.hbs/js component for display.
   * question.js to pass delete/create new answer and delete/edit question actions up to model and data back down to new-answer, delete-answer, and edit-question components respectively to display changes.
 
