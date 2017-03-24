@@ -1,5 +1,10 @@
-<h3>{{model.content}}</h3>
-<p>Asked by: {{model.author}}</p>
-<p>Additional notes: {{model.additionalNotes}}</p>
+<h3>{{model.question.content}}</h3>
+<p>Asked by: {{model.question.author}}</p>
+<p>Additional notes: {{model.question.additionalNotes}}</p>
 
 <h4>Answers:</h4>
+
+{{#each model.answers as |answer|}}
+  <p>User: {{answer.author}}</p>
+  <p>{{answer.content}}</p>
+{{/each}}

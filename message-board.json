@@ -35,5 +35,30 @@
     "author": "Paul Dorner",
     "content": "In an ember project, how do I create a route?",
     "additionalNotes": "I've installed ember and would like to have a few different pages"
-  }]
+  }],
+  "answers": [{
+    "author": "Jake Bennett",
+    "content": "In your console at the top level of your project, type: ember g route <route-name> , where <route-name> is the actual name that you would like your route to be."
+    }, {
+    "author": "Phil",
+    "content": "Banh mi small batch 8-bit salvia affogato. Activated charcoal shabby chic craft beer swag. Enamel pin kitsch waistcoat shoreditch air plant. Waistcoat hella truffaut echo park la croix keytar, kinfolk knausgaard DIY man braid scenester salvia squid retro authentic. +1 la croix selfies, butcher blue bottle cronut man braid health goth lomo chambray actually green juice enamel pin. Four loko leggings kinfolk irony banh mi, drinking vinegar paleo copper mug banjo. Dreamcatcher fanny pack 3 wolf moon wolf."
+  }, {
+    "author": "Bob",
+    "content": "Coloring book crucifix selvage, glossier plaid pickled copper mug gastropub paleo disrupt meh. Mixtape gentrify man braid brunch, plaid 90's jean shorts copper mug. Humblebrag VHS biodiesel listicle. Craft beer health goth banjo, activated charcoal put a bird on it kale chips VHS hot chicken fixie vexillologist. Fap pitchfork la croix, glossier helvetica sustainable banh mi VHS try-hard sriracha vaporware direct trade narwhal neutra. Mlkshk pinterest sriracha DIY. Normcore direct trade blog hoodie, kickstarter vinyl kogi disrupt viral prism."
+  }, {
+    "author": "Joe",
+    "content": "Cred poke mustache gochujang, truffaut bicycle rights pop-up kickstarter. Gochujang master cleanse freegan, direct trade everyday carry yuccie tacos church-key microdosing. Everyday carry freegan ennui, knausgaard typewriter direct trade coloring book. Irony meditation locavore 8-bit drinking vinegar tousled, poke affogato seitan kombucha vinyl literally chartreuse portland. Kogi edison bulb pug, pinterest selvage health goth glossier man bun snackwave meggings subway tile sriracha shabby chic. Forage umami sustainable literally. Migas echo park try-hard craft beer, gentrify +1 offal cred tumeric."
+  }, {
+    "author": "Ezra",
+    "content": "Taxidermy semiotics vexillologist try-hard, migas farm-to-table snackwave sustainable hexagon gentrify. Fam cronut chia food truck kogi, meditation literally pok pok squid green juice austin. La croix DIY fixie succulents vexillologist, gentrify banh mi iPhone mlkshk kitsch microdosing polaroid fap master cleanse seitan. Food truck cronut shabby chic bushwick prism, chicharrones lumbersexual farm-to-table blog tote bag sustainable readymade jean shorts. Cred seitan truffaut, chia selvage yuccie ramps fixie. Raw denim quinoa offal, whatever fingerstache taxidermy retro chartreuse jean shorts four dollar toast. Semiotics swag XOXO tattooed normcore yr, mlkshk kombucha hot chicken shabby chic taxidermy quinoa gochujang kickstarter."
+  }, {
+    "author": "Yani",
+    "content": "Tofu chicharrones blue bottle wayfarers etsy. Church-key selvage hot chicken echo park fap. Activated charcoal franzen hammock bicycle rights. Banjo authentic cornhole, cray brunch vexillologist pabst hot chicken raclette vape microdosing hammock 3 wolf moon. Art party kale chips unicorn vaporware, mustache DIY quinoa distillery selvage. Roof party +1 raclette venmo portland hella, brunch williamsburg coloring book scenester lo-fi gastropub jianbing four dollar toast keffiyeh. Gluten-free venmo twee, letterpress shabby chic retro jean shorts succulents aesthetic +1 umami hella synth listicle."
+  }, {
+    "author": "Mordecai",
+    "content": "Single-origin coffee hell of humblebrag, mixtape food truck freegan succulents fixie put a bird on it etsy. Lomo XOXO man braid kombucha. 3 wolf moon kitsch mustache selfies forage lomo, keytar before they sold out flannel occupy live-edge fashion axe lo-fi XOXO seitan. Fixie truffaut lomo, offal air plant tattooed gastropub poutine franzen man bun four loko pabst bespoke man braid hammock. Readymade fam actually trust fund, church-key normcore forage blue bottle coloring book offal hashtag raw denim. Cold-pressed vaporware forage brooklyn, hammock pork belly jianbing. +1 tilde mumblecore photo booth."
+  }, {
+    "author": "John",
+    "content": "Kickstarter pickled yuccie, pop-up pitchfork woke typewriter trust fund forage. Wolf chillwave intelligentsia, food truck slow-carb cred whatever kickstarter man braid. Messenger bag cred retro, microdosing pork belly actually umami celiac bitters kickstarter. Blog flexitarian you probably haven't heard of them, seitan jean shorts photo booth food truck hashtag kickstarter tousled vexillologist hella cold-pressed vinyl edison bulb. Viral pitchfork thundercats, truffaut next level mlkshk beard chambray chillwave 3 wolf moon direct trade poke humblebrag neutra. 90's bicycle rights kickstarter activated charcoal, godard tote bag truffaut forage prism four dollar toast salvia unicorn hell of lyft hot chicken. Craft beer offal distillery, flexitarian pork belly celiac art party irony keffiyeh fixie tbh hashtag echo park."
+    }]
 }
