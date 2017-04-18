@@ -59,3 +59,7 @@ You will need the following things properly installed on your computer.
 
 * `ember build` (development)
 * `ember build --environment production` (production)
+
+### License
+
+This project is licensed through MIT, &copy; Philip Putnam, 2017
